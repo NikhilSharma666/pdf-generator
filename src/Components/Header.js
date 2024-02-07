@@ -23,7 +23,7 @@ const Header = () => {
             {({ loading }) => (
               <Button variant="secondary" icon={download}>
                 {loading ? "Loading document..." : "Download"}
-              </Button>
+               </Button>
             )}
           </PDFDownloadLink>
         </HStack>
